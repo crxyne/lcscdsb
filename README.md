@@ -18,7 +18,7 @@ java -jar LCSCDSB.jar <mode> '<search>'
 For more help, provide no arguments:
 ```sh
 java -jar LCSCDSB.jar
-
+```
 ### Example
 Running the jar like so:
 ```sh
