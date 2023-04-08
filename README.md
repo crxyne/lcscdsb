@@ -4,7 +4,7 @@ Quick and dirty implementation of an lcsc electronics datasheet browser, using z
 ### Usage
 Firstly, you will need to obtain a lot of datasheets as pdf files and then simply zip them. I would provide them here if they werent so large, however the ones I have downloaded are about 200GiB in total.
 Create a file called "datasheet.txt" in the same directory as the LCSCDSB.jar file, then write all file paths to your datasheet zip files, followed by newlines, e.g.:
-```sh
+```
 /home/crayne/lcscdsb/datasheets1.zip
 /home/crayne/lcscdsb/datasheets2.zip
 /home/crayne/lcscdsb/datasheets3.zip
@@ -12,16 +12,16 @@ Create a file called "datasheet.txt" in the same directory as the LCSCDSB.jar fi
 ```
 In my setup, these are 4 separate zip files, containing about ~50k datasheets each.
 To search through these datasheets, you provide a mode and your search. Alternatively, you can provide a search only.
-```sh
+```
 java -jar LCSCDSB.jar <mode> '<search>'
 ```
 For more help, provide no arguments:
-```sh
+```
 java -jar LCSCDSB.jar
 ```
 ### Example
 Running the jar like so:
-```sh
+```
 java -jar LCSCDSB.jar STM32F103C8
 ```
 Results in an output something like this. It also opens the first pdf file it found with your default pdf program.
@@ -39,7 +39,7 @@ Results in an output something like this. It also opens the first pdf file it fo
 [4/8/2023 17:11:19] [INFO]: Press enter to exit.
 ```
 You can also use LCSC component numbers, for example like this:
-```sh
+```
 java -jar LCSCDSB.jar l C2969777
 
 [4/8/2023 17:14:07] Initializing LCSC Datasheet Browser
