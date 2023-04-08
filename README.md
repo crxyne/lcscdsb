@@ -2,7 +2,7 @@
 Quick and dirty implementation of an lcsc electronics datasheet browser, using zipped pdf files
 
 ### Usage
-Firstly, you will need to obtain a lot of datasheets as pdf files and then simply zip them.
+Firstly, you will need to obtain a lot of datasheets as pdf files and then simply zip them. I would provide them here if they werent so large, however the ones I have downloaded are about 200GiB in total.
 Create a file called "datasheet.txt" in the same directory as the LCSCDSB.jar file, then write all file paths to your datasheet zip files, followed by newlines, e.g.:
 ```sh
 /home/crayne/lcscdsb/datasheets1.zip
